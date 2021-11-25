@@ -32,16 +32,17 @@ def get_library(url, id):
 
     game_rows = driver.find_elements_by_tag_name('tr')
     # game_hours = [game_rows.find_elements_by_tag_name('td')[:2]  for game_row in game_rows]
-    game_name_hours = []
-    for row in game_rows:
-        cells = row.find_elements_by_tag_name('td')[:2]
-        cell_data = []
-        for cell in cells:
-            cell_data.append(cell.getAttribute("innerHTML"))
-        print(cell_data)
-        game_name_hours.append((cell_data[0], cell_data[1]))
-    driver.close()
-    return game_name_hours
+    # game_name_hours = []
+    # for row in game_rows:
+    #     cells = row.find_elements_by_tag_name('td')[:2]
+    #     cell_data = []
+    #     for cell in cells:
+    #         cell_data.append(cell.getAttribute("innerHTML"))
+    #     print(cell_data)
+    #     game_name_hours.append((cell_data[0], cell_data[1]))
+    # driver.close()
+    # return game_name_hours
+    return game_rows
 
 
 print(get_library(url, id))

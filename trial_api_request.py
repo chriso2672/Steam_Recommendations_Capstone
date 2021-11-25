@@ -82,10 +82,12 @@ with open('trui.pickle', 'rb') as handle:
 
 
 
-steamid_games = { steamid: get_games_for_steamid(str(steamid)) for steamid in top_rated_user_ids }
+top_rated_user_ids_hundred = list(top_rated_user_ids)[:100]
 
-print(steamid_games)
+steamid_games_hundred = { steamid: get_games_for_steamid(str(steamid)) for steamid in top_rated_user_ids_hundred}
+
+print(steamid_games_hundred)
 
 # Store data (serialize)
-with open('top_rated_user_libraries.pickle', 'wb') as handle:
-    pickle.dump(steamid_games , handle, protocol=pickle.HIGHEST_PROTOCOL)
+with open('top_rated_user_libraries_hundred.pickle', 'wb') as handle:
+    pickle.dump(steamid_games_hundred , handle, protocol=pickle.HIGHEST_PROTOCOL)
