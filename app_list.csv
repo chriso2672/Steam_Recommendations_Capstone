@@ -29,6 +29,7 @@ appid,name
 1840,Source Filmmaker
 1930,Two Worlds Epic Edition
 2100,Dark Messiah of Might & Magic
+2130,Dark Messiah of Might & Magic
 2280,Ultimate Doom
 2310,QUAKE
 2400,The Ship: Murder Party
@@ -67,7 +68,6 @@ appid,name
 8980,Borderlands Game of the Year
 9200,RAGE
 9340,Company of Heroes: Opposing Fronts
-9350,Supreme Commander
 9420,Supreme Commander: Forged Alliance
 9450,"Warhammer 40,000: Dawn of War - Soulstorm"
 9480,Saints Row 2
@@ -88,7 +88,6 @@ appid,name
 12810,Overlord II
 12900,AudioSurf
 13140,America's Army 3
-13520,Far Cry
 15100,Assassin's Creed: Director's Cut Edition
 15620,"Warhammer 40,000: Dawn of War II"
 15700,Oddworld: Abe's Oddysee
@@ -113,7 +112,6 @@ appid,name
 20900,The Witcher: Enhanced Edition Director's Cut
 20920,The Witcher 2: Assassins of Kings Enhanced Edition
 21090,F.E.A.R.
-21100,F.E.A.R. 3
 21110,F.E.A.R.
 21120,F.E.A.R.
 21690,Resident Evil 5
@@ -164,15 +162,11 @@ appid,name
 40100,Supreme Commander 2
 40390,Risen 2: Dark Waters
 40800,Super Meat Boy
-40950,Stronghold HD
-40960,Stronghold 2: Steam Edition
-40970,Stronghold Crusader HD
 41000,Serious Sam HD: The First Encounter
 41070,Serious Sam 3: BFE
 41500,Torchlight
 41700,S.T.A.L.K.E.R.: Call of Pripyat
 42700,Call of Duty: Black Ops
-42710,Call of Duty: Black Ops
 42910,Magicka
 42960,Victoria II
 44350,GRID 2
@@ -180,6 +174,7 @@ appid,name
 47780,Dead Space 2
 47790,Medal of Honor
 47810,Dragon Age: Origins - Ultimate Edition
+47830,Medal of Honor
 47870,Need For Speed: Hot Pursuit
 47890,The Sims 3
 48000,LIMBO
@@ -187,7 +182,6 @@ appid,name
 48700,Mount & Blade: Warband
 48720,Mount & Blade: With Fire & Sword
 49520,Borderlands 2
-49540,Aliens: Colonial Marines Collection
 50130,Mafia II (Classic)
 50300,Spec Ops: The Line
 50620,Darksiders
@@ -196,6 +190,7 @@ appid,name
 55150,"Warhammer 40,000: Space Marine - Anniversary Edition"
 55230,Saints Row: The Third
 56437,"Warhammer 40,000: Dawn of War II: Retribution"
+57300,Amnesia: The Dark Descent
 57690,Tropico 4
 57900,Duke Nukem Forever
 63380,Sniper Elite V2
@@ -232,6 +227,7 @@ appid,name
 115300,Call of Duty: Modern Warfare 3
 115320,Prototype 2
 200170,Worms Revolution
+200210,Realm of the Mad God Exalt
 200260,Batman: Arkham City - Game of the Year Edition
 200510,XCOM: Enemy Unknown
 200710,Torchlight II
@@ -272,6 +268,7 @@ appid,name
 209000,Batman: Arkham Origins
 209080,Guns of Icarus Online
 209160,Call of Duty: Ghosts
+209660,Call of Duty: Advanced Warfare - Gold Edition
 209670,Cortex Command
 209870,Blacklight: Retribution
 210770,Sanctum 2
@@ -281,6 +278,7 @@ appid,name
 211820,Starbound
 212070,Star Conflict
 212160,Vindictus
+212480,Sonic & All-Stars Racing Transformed Collection
 212500,The Lord of the Rings Online
 212680,FTL: Faster Than Light
 212740,TERA - Action MMORPG
@@ -311,13 +309,13 @@ appid,name
 221040,Resident Evil 6
 221100,DayZ
 221380,Age of Empires II (2013)
-221640,Super Hexagon
 221910,The Stanley Parable
 222480,Resident Evil Revelations
 222880,Insurgency
 223470,POSTAL 2
 223710,Cry of Fear
 223750,DCS World Steam Edition
+223850,3DMark
 224260,No More Room in Hell
 224540,Ace of Spades: Battle Builder
 224600,Defiance
@@ -326,13 +324,11 @@ appid,name
 225260,Brutal Legend
 225540,Just Cause 3
 225840,Sven Co-op
-226700,Infestation: Survivor Stories 2020
 226840,Age of Wonders III
 226860,Galactic Civilizations III
 227300,Euro Truck Simulator 2
 227940,Heroes & Generals
 228200,Company of Heroes
-228280,Baldur's Gate: Enhanced Edition
 228380,Wreckfest
 230230,Divinity: Original Sin (Classic)
 230410,Warframe
@@ -419,6 +415,7 @@ appid,name
 253710,theHunter Classic
 253900,Knights and Merchants
 253980,Enclave
+254060,KnightShift
 254700,Resident Evil 4
 255710,Cities: Skylines
 257350,Baldur's Gate II: Enhanced Edition
@@ -444,6 +441,7 @@ appid,name
 268050,The Evil Within
 268420,Aura Kingdom
 268500,XCOM 2
+268850,EVGA Precision X1
 268870,Satellite Reign
 268910,Cuphead
 269210,Hero Siege
@@ -469,7 +467,6 @@ appid,name
 282140,SOMA
 282440,Quake Live
 282660,Easy eSports
-282800,100% Orange Juice
 284160,BeamNG.drive
 285190,"Warhammer 40,000: Dawn of War III"
 285800,Braveland
@@ -490,6 +487,7 @@ appid,name
 291550,Brawlhalla
 291650,Pillars of Eternity
 292030,The Witcher 3: Wild Hunt
+292120,FINAL FANTASY XIII
 292910,Deponia: The Complete Journey
 293180,Overcast - Walden and the Werewolf
 293260,Card Hunter
@@ -551,7 +549,6 @@ appid,name
 327690,Gigantic
 329050,Devil May Cry 4 Special Edition
 331160,Disney•Pixar Cars
-331360,Heavy Metal Machines
 331470,Everlasting Summer
 332070,School of Dragons
 332950,Dark Deception
@@ -650,6 +647,7 @@ appid,name
 412020,Metro Exodus
 413150,Stardew Valley
 414340,Hellblade: Senua's Sacrifice
+414700,Outlast 2
 417860,Emily is Away
 417910,Street Warriors Online
 418240,Shadow Tactics: Blades of the Shogun
@@ -699,7 +697,6 @@ appid,name
 460920,Steep
 460930,Tom Clancy's Ghost Recon Wildlands
 460950,Katana ZERO
-462780,Darksiders Warmastered Edition
 464920,Surviving Mars
 466240,Deceit
 466560,Northgard
@@ -735,7 +732,6 @@ appid,name
 516750,My Summer Car
 518790,theHunter: Call of the Wild
 519860,DUSK
-522570,The Last Hope
 524220,NieR:Automata
 526870,Satisfactory
 527230,For The King
@@ -757,7 +753,6 @@ appid,name
 552520,Far Cry 5
 552990,World of Warships
 553640,ICEY
-554620,Life is Strange: Before the Storm
 555160,Pavlov VR
 555570,Infestation: The New Z
 558100,Art of War: Red Tides
@@ -793,6 +788,7 @@ appid,name
 620980,Beat Saber
 621060,PC Building Simulator
 622650,Bendy and the Ink Machine
+627270,Injustice 2
 627690,Idle Champions of the Forgotten Realms
 629520,Soundpad
 629730,Blade and Sorcery
@@ -821,6 +817,7 @@ appid,name
 666140,My Time At Portia
 666220,CS2D
 667890,Dead Maze
+668630,Tricolour Lovestory
 674940,Stick Fight: The Game
 675010,MudRunner
 677620,Splitgate: Arena Warfare
@@ -848,7 +845,6 @@ appid,name
 728880,Overcooked! 2
 729040,Borderlands Game of the Year Enhanced
 730310,DYNASTY WARRIORS 9
-736190,Chinese Parents
 738060,Freddy Fazbear's Pizzeria Simulator
 739630,Phasmophobia
 744900,Dead Frontier 2
@@ -921,6 +917,7 @@ appid,name
 1056960,Wolfenstein: Youngblood
 1057090,Ori and the Will of the Wisps
 1057240,Crucible Beta
+1058020,"STAR WARS Battlefront (Classic, 2004)"
 1063730,New World
 1080110,F1 2020
 1085660,Destiny 2
@@ -962,6 +959,7 @@ appid,name
 1229490,ULTRAKILL
 1237950,STAR WARS Battlefront II
 1237970,Titanfall 2
+1238000,Mass Effect: Andromeda Deluxe Edition
 1238810,Battlefield V
 1238840,Battlefield 1 
 1238860,Battlefield 4
@@ -985,6 +983,7 @@ appid,name
 1343400,RuneScape 
 1353950,Ring of Fire: Prologue
 1366540,Dyson Sphere Program
+1377580,Soulworker
 1399780,Spellbreak
 1404210,Red Dead Online
 1407200,World of Tanks
@@ -999,3 +998,4 @@ appid,name
 1517290,Battlefield 2042
 1520470,封灵档案
 1536610,OpenTTD
+1627140,Sabre Team

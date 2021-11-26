@@ -14,7 +14,6 @@ import requests
 # customisations - ensure tables show all columns
 pd.set_option("max_columns", 100)
 
-
 def get_request(url, parameters=None):
     """Return json-formatted response of a get request using optional parameters.
     
@@ -50,22 +49,3 @@ def get_request(url, parameters=None):
         time.sleep(10)
         print('Retrying.')
         return get_request(url, parameters)
-
-url = "https://steamspy.com/api.php"
-parameters = {"request": "all"}
-
-# request 'all' from steam spy and parse into dataframe
-json_data = get_request(url, parameters=parameters)
-steam_spy_all = pd.DataFrame.from_dict(json_data, orient='index')
-
-# generate sorted app_list from steamspy data
-app_list = steam_spy_all[['appid', 'name', 'tags', 'genre']].sort_values('appid').reset_index(drop=True)
-
-# export disabled to keep consistency across download sessions
-app_list.to_csv('app_list.csv', index=False)
-
-# instead read from stored csv
-app_list = pd.read_csv('app_list.csv')
-
-# display first few rows
-print(steam_spy_all)

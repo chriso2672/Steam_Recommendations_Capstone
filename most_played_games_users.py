@@ -13,7 +13,7 @@ start_time = time.time()
 options = Options()
 options.add_argument("--disable-notifications")
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
-# driver = webdriver.Chrome(executable_path='C:/bin/chromedriver', chrome_options=options)
+driver = webdriver.Chrome(executable_path='C:/bin/chromedriver', chrome_options=options)
 
 def get_game_ids(url, amount):
     driver.get(url)
@@ -61,16 +61,16 @@ def get_user_ids(url, max_games, max_reviews):
 
 most_played = "https://steamdb.info/graph/"
 
-# most_played_user_ids = get_user_ids(most_played, '1K',  100)
-# driver.close()
+most_played_user_ids = get_user_ids(most_played, '1K',  100)
+driver.close()
 
 # Store data (serialize)
-# with open('mpui.pickle', 'wb') as handle:
-#     pickle.dump(most_played_user_ids, handle, protocol=pickle.HIGHEST_PROTOCOL)
+with open('mpui.pickle', 'wb') as handle:
+    pickle.dump(most_played_user_ids, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 # # Load data (deserialize)
 with open('mpui.pickle', 'rb') as handle:
     unserialized_mpui = pickle.load(handle)
 
 print(unserialized_mpui, len(unserialized_mpui))
-# print("--- %s seconds ---" % (time.time() - start_time))
+print("--- %s seconds ---" % (time.time() - start_time))

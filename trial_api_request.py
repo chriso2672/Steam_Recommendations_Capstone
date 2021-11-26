@@ -84,7 +84,7 @@ with open('trui.pickle', 'rb') as handle:
 
 top_rated_user_ids_hundred = list(top_rated_user_ids)[:100]
 
-steamid_games_hundred = { steamid: get_games_for_steamid(str(steamid)) for steamid in top_rated_user_ids_hundred}
+steamid_games_hundred = {steamid: get_games_for_steamid(str(steamid)) for steamid in top_rated_user_ids_hundred}
 
 print(steamid_games_hundred)
 
