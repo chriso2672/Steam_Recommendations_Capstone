@@ -30,7 +30,7 @@ Game libraries: Game libraries were requested from the Steam API. I was able to 
 
 The above data was combined into the library_df dataset.
 
-The api requests and scraping for the game dataset and user libraries can be found in data/data_harvest. Scrapoing for user ids with Selenium can be in the assorted Python files in the data folder as well.
+The api requests/scraping for the game dataset and user libraries can be found in data/data_harvest. The python files for scraping user ids with Selenium can be found in the data folder as well.
 
 
 ## Technical Understanding
