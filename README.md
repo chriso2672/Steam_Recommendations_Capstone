@@ -59,6 +59,17 @@ As mentioned above the final model is KNNBasic. The hyperparameters used were K=
 ## Conclusion
 All in all it the recommendation system created here isn't bad, though there are some issues that would prevent me from deploying it. Firstly it is currently working off of the 1,000 most owned games on Steam due to some scraping limitation. Though this does cover the majority of user game libraries, it does have a bias towards more popular games. There is also the cold start issue inherit in collaborative filtering, wherein user's without much or any hours played may not get proper recommendations and would be better off using something like a popularity recommendation system. Finally I found out pretty late in the process that there was defined difference between 'explicit' and 'implicit' rating systems. Explicit would be using defined user ratings, and implicit would be implying the ratings from other metrics, like what I did here with the user-tag hours. Unfortunately that means that there are other metrics that I should be using to judge my models here, such as Mean Average Precision at K (MAPK, MAP@K). However at this stage I will have to settle on the results here, and perhaps get some more reliable results at a later stage. I think there is some value to be drawn from the rating system I implemented here and will likely employ it again in the future to similar projects.
 
+## Data Gathering
+This repository relies on data scraped or requested from several sources. All data is available in the repository, however if you wish to gather it yourself using the same methods you can run through the files in this order:
+The three following use selenium to scrape appids from Steamdb, then uses those appids to find games on steam powered and scrapes the steamids of the 100 most recent reviewers per game.
+1. most_followed_games_user.py -> mfui.pickle
+2. most_played_games_user.py -> mpui.pickle
+3. top_rated_games_user.py -> trui.pickle
+These three files are combined to make steamid_list.pickle.
+4. data_harvest.ipynb
+In data_harvest there are functions for downloading app_list, a list of the 1,000 most owned games on Steam. Using those appids you make requests for the rest of the app data with SteamAPI and saves it as steamspy_data.csv. This is where the functions for using the steamids gathered are used to request the user libraries as well. The retrieved libraries are saved into library_data.csv. These 2 files are used as the main datasets for the recommendation system.
+
+
 ### For More Information
 Please review the full analysis [Jupyter Notebook](./Steam_Rek_System.ipynb)
 
@@ -97,4 +108,5 @@ or [Presentation](./Steam_Rek_System.pdf)
 ├── .gitignore
 ├── Steam_Rek_System.pdf
 ├── Steam_Rek_System.ipynb
+├── environment.yml
 └── README.md
