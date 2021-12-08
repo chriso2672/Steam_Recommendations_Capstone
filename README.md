@@ -63,11 +63,15 @@ All in all it the recommendation system created here isn't bad, though there are
 This repository relies on data scraped or requested from several sources. All data is available in the repository, however if you wish to gather it yourself using the same methods you can run through the files in this order:
 
 The three following use selenium to scrape appids from Steamdb, then uses those appids to find games on steam powered and scrapes the steamids of the 100 most recent reviewers per game.
+
 1. most_followed_games_user.py -> mfui.pickle
 2. most_played_games_user.py -> mpui.pickle
 3. top_rated_games_user.py -> trui.pickle
+
 These three files are combined to make steamid_list.pickle.
+
 4. data_harvest.ipynb
+
 In data_harvest there are functions for downloading app_list, a list of the 1,000 most owned games on Steam. Using those appids you make requests for the rest of the app data with SteamAPI and saves it as steamspy_data.csv. This is where the functions for using the steamids gathered are used to request the user libraries as well. The retrieved libraries are saved into library_data.csv. These 2 files are used as the main datasets for the recommendation system.
 
 
