@@ -60,10 +60,9 @@ As mentioned above the final model is KNNBasic. The hyperparameters used were K=
 All in all it the recommendation system created here isn't bad, though there are some issues that would prevent me from deploying it. Firstly it is currently working off of the 1,000 most owned games on Steam due to some scraping limitation. Though this does cover the majority of user game libraries, it does have a bias towards more popular games. There is also the cold start issue inherit in collaborative filtering, wherein user's without much or any hours played may not get proper recommendations and would be better off using something like a popularity recommendation system. Finally I found out pretty late in the process that there was defined difference between 'explicit' and 'implicit' rating systems. Explicit would be using defined user ratings, and implicit would be implying the ratings from other metrics, like what I did here with the user-tag hours. Unfortunately that means that there are other metrics that I should be using to judge my models here, such as Mean Average Precision at K (MAPK, MAP@K). However at this stage I will have to settle on the results here, and perhaps get some more reliable results at a later stage. I think there is some value to be drawn from the rating system I implemented here and will likely employ it again in the future to similar projects.
 
 ### For More Information
-Please review our full analysis in our [Jupyter Notebook](./Steam_Rek_System.ipynb)
+Please review the full analysis [Jupyter Notebook](./Steam_Rek_System.ipynb)
 
-
-or our [Presentation](./Steam_Rek_System.pdf)
+or [Presentation](./Steam_Rek_System.pdf)
 
 
 ### Repository Structure
