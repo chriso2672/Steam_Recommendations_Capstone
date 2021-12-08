@@ -61,6 +61,7 @@ All in all it the recommendation system created here isn't bad, though there are
 
 ## Data Gathering
 This repository relies on data scraped or requested from several sources. All data is available in the repository, however if you wish to gather it yourself using the same methods you can run through the files in this order:
+
 The three following use selenium to scrape appids from Steamdb, then uses those appids to find games on steam powered and scrapes the steamids of the 100 most recent reviewers per game.
 1. most_followed_games_user.py -> mfui.pickle
 2. most_played_games_user.py -> mpui.pickle
