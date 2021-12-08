@@ -98,11 +98,7 @@ or [Presentation](./Steam_Rek_System.pdf)
 │   ├── steamid_list.pickle
 │   ├── steamspy_data.csv
 │   ├── steamspy_index.txt
-│   ├── top_rated_games.py
 │   ├── top_rated_games_users.py
-│   ├── top_rated_user_libraries_fifty.pickle
-│   ├── top_rated_user_libraries_hundred.pickle
-│   ├── trial_api_request.py
 │   └── trui.pickle
 ├── images
 │   ├── hidden.png
